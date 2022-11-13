@@ -56,3 +56,4 @@ txt
 json
 vendor
 */**/db-data/*
+*/**/node_modules
