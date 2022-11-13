@@ -1,0 +1,7 @@
+Publish a new message:
+rabbitmqadmin publish exchange=amq.default routing_key="TestQueue" payload="Hello, World!"
+
+RabbitMQ Web Interface:
+URL: http://localhost:15672/#/
+Login: guest
+Password: guest

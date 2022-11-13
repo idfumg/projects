@@ -1,0 +1,6 @@
+create table if not exists books (id serial, title varchar, author varchar, year varchar);
+create table if not exists users (id serial primary key, email text not null unique, password text not null);
+insert into users (email, password) values ('test@example.com', '12345');
+
+JWT: https://www.rfc-editor.org/rfc/rfc7519
+Site: https://jwt.io
