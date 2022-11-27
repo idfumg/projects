@@ -1,0 +1,11 @@
+Migration:
+brew install golang-migrate
+mkdir -p db/migration
+migrate create -ext sql -dir db/migration -seq init_schema
+
+Pg:
+docker pull postgres:12-alpine
+make exec-pg-bash
+createdb --username=root --owner=root simple_bank
+psql -U root simple_bank
+dropdb simple_bank
