@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"net/http"
 	"os"
@@ -10,29 +11,28 @@ import (
 	"myapp/store"
 )
 
-const (
-	port = ":50051"
-)
-
 func main() {
 	logger := log.New(os.Stdout, "Service: ", log.Ldate|log.Ltime|log.Lshortfile)
 
 	config, err := config.New()
 	if err != nil {
-		log.Fatalf("Error! Could not init the config: %v\n", err)
+		logger.Fatalf("Error! Could not init the config: %v\n", err)
 	}
+	logger.Printf("Config is read")
 
 	// store, err := store.NewInMemory()
 	store, err := store.NewPg(logger, config)
 	if err != nil {
-		log.Fatalf("Error! Could not init a store: %v\n", err)
+		logger.Fatalf("Error! Could not init a store: %v\n", err)
 	}
+	logger.Printf("Database is connected")
 
 	s, err := server.NewServerMux(store, logger)
 	if err != nil {
-		log.Fatalf("Error! Could not init an API: %v\n", err)
+		logger.Fatalf("Error! Could not init an API: %v\n", err)
 	}
 
-	log.Printf("Listening on port: %s\n", port)
-	log.Fatal(http.ListenAndServe(port, server.AddCORS(s)))
+	port := fmt.Sprintf(":%s", config.GetWebPort())
+	logger.Printf("Listening on port: %s\n", port)
+	logger.Fatal(http.ListenAndServe(port, server.AddCORS(s)))
 }
