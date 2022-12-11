@@ -1,0 +1,361 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Sun Jul 31 16:10:47 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DOT_ENV_SIRENA_ORACLE_PATH = ${ORACLE_HOME}/bin
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+ORACLE_BASE = /u01/app/oracle
+# environment
+ORACLE_INVENTORY = ${ORACLE_HOME}/inventory
+# environment
+DOT_ENV_SIRENA_PATH_TRUNK = ~/1/work/sirena
+# environment
+LC_CTYPE = UTF-8
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/idfumg/1/golang/courses/go-building-web-applications
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# environment
+DOT_ENV_CXX_COMPILER = clang++
+# environment
+DOT_ENV_SIRENA_ORACLE_SID = orcl
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+DOT_ENV_SIRENA_CPU_COUNT = 6
+# environment
+__GIT_PROMPT_SHOW_UNTRACKED_FILES = 
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+LOCALCXX = clang++
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+SIRENA_PATH_TRUNK = ~/1/work/sirena
+# environment
+VSCODE_CWD = /Users/idfumg/1/golang/courses/go-building-web-applications
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+DOT_ENV_SIRENA_ORACLE_NLS_LANG = AMERICAN_CIS.RU8PC866
+# environment
+NO_PROXY = localhost,127.0.0.1,registry-1.docker.io
+# environment
+ITERM_PREV_PS1 = \[]133;D;$?]133;A\]\[\033[0;32m\]✔\[\033[0;0m\] \[\033[0;33m\]\w\[\033[0;0m\] [\[\033[0;35m\]${GIT_BRANCH}\[\033[0;0m\] L\[\033[0;0m\]|\[\033[1;32m\]✔\[\033[0;0m\]\[\033[0;0m\]] \n\[\033[0;37m\]$(date +%H:%M)\[\033[0;0m\] $ \[]133;B\]
+# environment
+CXX_COMPILER = clang++
+# environment
+SIRENA_CPU_COUNT = 6
+# environment
+LaunchInstanceID = 57397E53-5D12-4267-9F3D-7D208C8B3D13
+# environment
+DOT_ENV_SIRENA_ORACLE_BASE = /u01/app/oracle
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+DOT_ENV_SIRENA_ORACLE_INVENTORY = ${ORACLE_HOME}/inventory
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+ITERM_PROFILE = Default
+# environment
+DOT_ENV_C_COMPILER = clang
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.xlhgc2XFzs/Listeners
+# environment
+DOT_ENV_SIRENA_PATH_DOCKER = /sirena_src
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = /private/tmp/com.apple.launchd.M44QAkORlH/org.xquartz:0
+# environment
+ITERM_ORIG_PS1 = \[\033[0;32m\]✔\[\033[0;0m\] \[\033[0;33m\]\w\[\033[0;0m\] [\[\033[0;35m\]${GIT_BRANCH}\[\033[0;0m\] L\[\033[0;0m\]|\[\033[1;32m\]✔\[\033[0;0m\]\[\033[0;0m\]] \n\[\033[0;37m\]$(date +%H:%M)\[\033[0;0m\] $ 
+# environment
+SVN_SSH = ssh -i ~/.ssh/id_rsa_komtex -l svn
+# environment
+VISUAL = emacs
+# environment
+DOT_ENV_VISUAL = emacs
+# environment
+PWD = /Users/idfumg/1/golang/courses/go-building-web-applications
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+EMACS_FONT_SIZE = 110
+# environment
+DOT_ENV_SIRENA_SVN_SSH = ssh -i ~/.ssh/id_rsa_komtex -l svn
+# environment
+GOMODCACHE = /Users/idfumg/1/golang/projects/pkg/mod
+# environment
+HOME = /Users/idfumg
+# environment
+LD_LIBRARY_PATH = ${ORACLE_HOME}/lib:
+# environment
+DOT_ENV_SIRENA_PATH_STABLE = ~/1/work/sirena
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/idfumg/Library/Application Support/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LOGNAME = idfumg
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+DOT_ENV_EMACS_FONT_SIZE = 110
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+C_COMPILER = clang
+# environment
+XPC_FLAGS = 0x0
+# environment
+SIRENA_PATH_DOCKER = /sirena_src
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+LC_TERMINAL = iTerm2
+# environment
+PATH = /opt/local/bin:/opt/local/sbin:/usr/local/opt/llvm/bin:/Users/idfumg/bin:${ORACLE_HOME}/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/opt/X11/bin:/Library/Apple/usr/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/idfumg/1/golang//bin
+# environment
+SHLVL = 3
+# environment
+ORACLE_HOME = ${ORACLE_BASE}/product/12.2.0/db_1
+# environment
+CC = clang
+# environment
+GOPATH = /Users/idfumg/1/golang/projects/
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = idfumg
+# makefile
+.DEFAULT_GOAL := gen-cert
+# default
+MAKECMDGOALS := all
+# environment
+TERM_SESSION_ID = w0t0p0:15F00269-86DC-409C-B017-3968DCC61005
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+DOT_ENV_EDITOR = emacs
+# environment
+DOT_ENV_SIRENA_PATH = ~/1/work
+# environment
+SIRENA_PATH_STABLE = ~/1/work/sirena
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+ORACLE_PATH = ${ORACLE_HOME}/bin
+# environment
+TERM_PROGRAM = iTerm.app
+# default
+.VARIABLES := 
+# environment
+DOT_ENV_TERM = screen-256color
+# environment
+TMPDIR = /var/folders/fc/yj89fm1n09j2kbzp2g50plvh0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/idfumg/Library/Application Support/Code/1.69.2-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+ORALCE_NLS_LANG = AMERICAN_CIS.RU8PC866
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 3.4.16
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.54674206.54674212.3E421A36-485E-4406-A579-4E95BE85F7B9
+# environment
+LC_TERMINAL_VERSION = 3.4.16
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+ITERM_SESSION_ID = w0t0p0:15F00269-86DC-409C-B017-3968DCC61005
+# environment
+COLORFGBG = 7;0
+# environment
+COLORTERM = truecolor
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x2
+# environment
+COMMAND_MODE = unix2003
+# environment
+PLATFORM = m64
+# environment
+ORACLE_SID = orcl
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LIBGL_ALWAYS_INDIRECT = 1
+# environment
+ORACLE_LD_LIBRARY_PATH = ${ORACLE_HOME}/lib
+# environment
+SIRENA_PATH = ~/1/work
+# environment
+CXX = clang++
+# environment
+ENABLE_GLIBCXX_DEBUG = 1
+# environment
+EDITOR = emacs
+# environment
+LC_ALL = C
+# environment
+SVN_BASE = svn+ssh://svn/SVNroot/sirena
+# environment
+GIT_BRANCH = master
+# environment
+SECURITYSESSIONID = 186a6
+# automatic
+^F = $(notdir $^)
+# environment
+DOT_ENV_ENABLE_GLIBCXX_DEBUG = 1
+# environment
+DOT_ENV_SIRENA_ORACLE_HOME = ${ORACLE_BASE}/product/12.2.0/db_1
+# default
+SUFFIXES := 
+# environment
+DOT_ENV_SIRENA_SVN_BASE = svn+ssh://svn/SVNroot/sirena
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+LOCALCC = clang
+# environment
+DOT_ENV_LC_ALL = POSIX
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+TERM = screen-256color
+# environment
+VSCODE_PID = 93501
+# environment
+DOT_ENV_SIRENA_ORACLE_LD_LIBRARY_PATH = ${ORACLE_HOME}/lib
+# variable set hash-table stats:
+# Load=131/1024=13%, Rehash=0, Collisions=12/155=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777220, inode 55531597): 19 files, no impossibilities.
+
+# 19 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+ 
+make: *** No rule to make target `all'.  Stop.
+
+#  Last modified 2022-07-29 23:50:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 7):
+	rm cert.pem certificate.pem key.pem
+	
+
+gen-cert:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 2):
+	openssl genrsa -out key.pem && \
+	openssl req -new -key key.pem -out cert.pem && \
+	openssl req -x509 -days 365 -key key.pem -in cert.pem -out certificate.pem
+	
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/18=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun Jul 31 16:10:47 2022
+
+ 

@@ -1,0 +1,19 @@
+.my-footer {
+    background-color: #198754;
+    margin-top: 1.5em;
+    padding: 1em;
+    font-size: 80%;
+    height: 5em;
+}
+
+.notie-container {
+    box-shadow: none;
+}
+
+.datepicker {
+    z-index: 10;
+}
+
+div.swal2-actions {
+    z-index: 0;
+}

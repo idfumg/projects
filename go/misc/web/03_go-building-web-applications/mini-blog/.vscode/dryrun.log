@@ -1,0 +1,7 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/idfumg/1/golang/courses/go-building-web-applications'
+openssl genrsa -out key.pem && \
+	openssl req -new -key key.pem -out cert.pem && \
+	openssl req -x509 -days 365 -key key.pem -in cert.pem -out certificate.pem
+make: Leaving directory `/Users/idfumg/1/golang/courses/go-building-web-applications'
+ 
