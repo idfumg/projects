@@ -1,0 +1,14 @@
+The system is: Darwin - 21.4.0 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/opt/llvm/bin/clang++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is Clang, found in "/Users/idfumg/1/cmake_tutorials/ws_beast/build/CMakeFiles/3.23.0/CompilerIdCXX/CMakeCXXCompilerId.o"
+

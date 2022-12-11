@@ -1,0 +1,9 @@
+-std=c++17
+-Wall
+-I/Library/Developer/CommandLineTools/usr/include/c++/v1
+-I/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/
+-I/usr/local/Cellar/googletest/1.11.0/include
+-L/System/Volumes/Data/usr/local/Cellar/googletest/1.11.0/lib
+-I/usr/local/Cellar/boost/1.78.0_1/include/
+-I/usr/local/Cellar/openssl@1.1/1.1.1h/include/
+-Iexternal/json/include
