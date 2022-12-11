@@ -58,3 +58,4 @@ vendor
 */**/db-data/*
 */**/postgres-data/*
 */**/node_modules
+*/**/build/*

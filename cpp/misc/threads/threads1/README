@@ -1,0 +1,3 @@
+How to work with the app:
+1) ./run.sh (making a docker image and starting a container)
+2) ./build.sh (starting cmake, make, and executing a binary)
