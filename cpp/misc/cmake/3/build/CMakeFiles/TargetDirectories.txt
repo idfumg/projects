@@ -1,0 +1,4 @@
+/usr/src/project/build/CMakeFiles/rebuild_cache.dir
+/usr/src/project/build/CMakeFiles/edit_cache.dir
+/usr/src/project/build/CMakeFiles/hello.dir
+/usr/src/project/build/CMakeFiles/foo.dir

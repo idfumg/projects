@@ -1,0 +1,1 @@
+/usr/local/bin/clang++ -fPIC -shared -Wl,-soname,libfoo.so -o libfoo.so CMakeFiles/foo.dir/src/foo.cpp.o 
