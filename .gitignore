@@ -59,3 +59,5 @@ vendor
 */**/postgres-data/*
 */**/node_modules
 */**/build/*
+main
+main2
