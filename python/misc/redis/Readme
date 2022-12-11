@@ -1,0 +1,32 @@
+Create cloud Redis:
+https://redis.com
+https://app.redislabs.com/#/subscriptions/subscription/1908801/bdb-view/11354334/configuration
+
+Local Redis:
+https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/
+
+Connect to Redis:
+redis-cli -h redis-17206.c16.us-east-1-3.ec2.cloud.redislabs.com -p 17206 -a b5rpiZ9tAKp7tjd9OM48HcllEMs7khMZ
+export REDIS_OM_URL=redis://default:b5rpiZ9tAKp7tjd9OM48HcllEMs7khM1@redis-17206.c16.us-east-1-3.ec2.cloud.redislabs.com:17206
+
+Flush everything in Redis:
+redis-cli -h redis-17206.c16.us-east-1-3.ec2.cloud.redislabs.com -p 17206 -a b5rpiZ9tAKp7tjd9OM48HcllEMs7khMZ flushall
+
+Python:
+import redis
+r = redis.Redis(password='b5rpiZ9tAKp7tjd9OM48HcllEMs7khM1', host='redis-17206.c16.us-east-1-3.ec2.cloud.redislabs.com', port=17206, decode_responses=True)
+# key-value
+r.set('foo', 'bar')
+r.get('foo') # bar
+# multi set
+r.mset({'jupiter': 'planet', 'sun': 'star'})
+r.get('jupiter') # planet
+r.get('sun') # star
+# hash set
+r.hset('captains', 'enterprise', 'kirk')
+r.hset('captains', 'voyager', 'janeway')
+r.hget('captains', 'enterprise') # kirk
+# list
+r.lpush('ships', 'enterprise')
+r.lpush('ships', 'deep space nine')
+r.rpop('ships') # enterprise
