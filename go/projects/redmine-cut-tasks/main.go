@@ -7,7 +7,12 @@ import (
 )
 
 var data = `
-45083	Feature	Testing	Normal	RAIL: PG: Включить последние таблицы в сборку через pg	2022-12	07.12.2022 19:35
+45239	Bug	Resolved	Normal	RAIL: PG: Исправить ошибку на авто транзакцию для railhist при обработке ошибок	2022-12	21.12.2022 19:33
+45236	Feature	Resolved	Normal	RAIL: PG: Реализовать механизм авто транзакции в библиотеке rail curs	2022-12	21.12.2022 19:33
+45056	Feature	Resolved	Normal	RAIL: Исправить латиницу в Заявке на приобретение билета	2022-12	21.12.2022 19:33
+44987	Feature	Resolved	Normal	RAIL: Оповещение при возврате нескольких билетов из заказа	2022-12	21.12.2022 19:33
+44881	Bug	Resolved	Normal	RAIL: НЕМО: Международный класс обслуживания	2022-12	21.12.2022 19:33
+42337	Feature	Resolved	Normal	RAIL: PDF: Придумать механизм более быстрой загрузки файлов для агентов	2022-12	21.12.2022 19:33
 `
 
 func TaskFromLine(line string) (string, string) {

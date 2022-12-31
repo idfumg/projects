@@ -124,6 +124,7 @@ func main() {
 
 	for _, record := range records {
 		fmt.Println(record.Title)
+		fmt.Println(record.Timestamp)
 		fmt.Println(record.Hash)
 		fmt.Println()
 	}

@@ -61,3 +61,11 @@ vendor
 */**/build/*
 main
 main2
+go/misc/redis/02/data/mariadb
+go/misc/redis/02/data/influxdb
+go/misc/kafka/server/mysql
+go/misc/redis/02/data/redis
+go/misc/redis/02/data/grafana
+go/misc/kafka/server/mysql
+go/misc/kafka/server/zookeeper
+go/misc/kafka/server/kafka

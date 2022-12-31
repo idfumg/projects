@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package = "myapp/proto";
+
+service PriceFetcher {
+    rpc FetchPrice(FetchPriceRequest) returns (FetchPriceResponse);
+}
+
+message FetchPriceRequest {
+    string ticker = 1;
+}
+
+message FetchPriceResponse {
+    string ticker = 1;
+    string price = 2;
+}
