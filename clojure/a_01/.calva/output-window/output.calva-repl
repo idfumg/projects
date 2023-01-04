@@ -1,0 +1,778 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ??
+
+; Jacking in...
+; Aborting jack-in. No project type selected.
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj?a-01.core?>ÿ ; Use `alt+enter` to evaluate
+
+
+(+ 1 2)
+3
+clj?a-01.core?>ÿ
+3
+clj?a-01.core?>ÿ
+3
+clj?a-01.core?>ÿ
+(1)
+; Execution error (ClassCastException) at a-01.core/eval2430 (form-init16393553744957053368.clj:29).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj?a-01.core?>ÿ
+(-main)
+; Execution error (ArityException) at a-01.core/eval2432 (form-init16393553744957053368.clj:33).
+; Wrong number of args (0) passed to: a-01.core/-main
+clj?a-01.core?>ÿ
+clj?a_01.functions?>ÿ
+(-main)
+; Syntax error compiling at (.calva/output-window/output.calva-repl:38:1).
+; Unable to resolve symbol: -main in this context
+clj?a_01.functions?>ÿ
+(defn -main
+  "First function"
+  []
+  (println "My name is Artem")
+  (println "loving Clojure so far")
+  (+ 2 5))
+; Syntax error compiling at (.calva/output-window/output.calva-repl:42:1).
+; Unable to resolve symbol: defn in this context
+clj?a_01.functions?>ÿ
+(-main)
+; Syntax error compiling at (.calva/output-window/output.calva-repl:51:1).
+; Unable to resolve symbol: -main in this context
+clj?a_01.functions?>ÿ
+; Evaluating file: functions.clj
+#'a_01.functions/-main
+clj?a_01.functions?>ÿ
+(-main)
+My name is Artem
+loving Clojure so far
+7
+clj?a_01.functions?>ÿ
+; Evaluating file: functions.clj
+#'a_01.functions/-main
+clj?a_01.functions?>ÿ
+#'a_01.functions/-main
+clj?a_01.functions?>ÿ
+#'a_01.functions/-main
+clj?a_01.functions?>ÿ
+#'a_01.functions/-main
+clj?a_01.functions?>ÿ
+My name is Artem
+loving Clojure so far
+7
+clj?a_01.functions?>ÿ
+; Syntax error compiling at (src/a_01/functions.clj:17:1).
+; Unable to resolve symbol: increment_set in this context
+clj?a_01.functions?>ÿ
+; Syntax error compiling at (src/a_01/functions.clj:15:3).
+; Unable to resolve symbol: increment in this context
+clj?a_01.functions?>ÿ
+; Syntax error compiling at (src/a_01/functions.clj:15:3).
+; Unable to resolve symbol: increment in this context
+clj?a_01.functions?>ÿ
+#'a_01.functions/increment
+clj?a_01.functions?>ÿ
+#'a_01.functions/increment_set
+clj?a_01.functions?>ÿ
+(2 3)
+clj?a_01.functions?>ÿ
+(2 3)
+clj?a_01.functions?>ÿ
+; Syntax error compiling at (src/a_01/functions.clj:24:1).
+; Unable to resolve symbol: DataTypes in this context
+clj?a_01.functions?>ÿ
+; Evaluating file: functions.clj
+1
+nil
+clj?a_01.functions?>ÿ
+1
+nil
+clj?a_01.functions?>ÿ
+1
+nil
+clj?a_01.functions?>ÿ
+1
+nil
+clj?a_01.functions?>ÿ
+#'a_01.functions/DataTypes
+clj?a_01.functions?>ÿ
+1 1.125
+nil
+clj?a_01.functions?>ÿ
+1 1.125 1.0E9
+nil
+clj?a_01.functions?>ÿ
+1 1.125 1.0E9
+nil
+clj?a_01.functions?>ÿ
+#'a_01.functions/DataTypes
+clj?a_01.functions?>ÿ
+1 1.125 1.0E9 true hahaha
+nil
+clj?a_01.functions?>ÿ
+; Syntax error reading source at (REPL:26:23).
+; Unmatched delimiter: )
+clj?a_01.functions?>ÿ
+; Syntax error reading source at (REPL:26:23).
+; Unmatched delimiter: )
+clj?a_01.functions?>ÿ
+1 1.125 1.0E9 true hahaha
+nil
+clj?a_01.functions?>ÿ
+#'a_01.functions/DataTypes
+clj?a_01.functions?>ÿ
+1 1.125 1.0E9 true hahaha hello
+nil
+clj?a_01.functions?>ÿ
+#'a-01.conditionals/CondIf
+clj?a-01.conditionals?>ÿ
+#'a-01.conditionals/CondIf
+clj?a-01.conditionals?>ÿ
+CondIf:
+not equal
+nil
+clj?a-01.conditionals?>ÿ
+#'a-01.conditionals/CondIf
+clj?a-01.conditionals?>ÿ
+CondIf:
+equal
+nil
+clj?a-01.conditionals?>ÿ
+#'a-01.conditionals/CondIfDo
+clj?a-01.conditionals?>ÿ
+CondIfDoo
+First do 1
+First do 2
+nil
+clj?a-01.conditionals?>ÿ
+#'a-01.conditionals/CondNestedIf
+clj?a-01.conditionals?>ÿ
+CondNestedIf
+True
+nil
+clj?a-01.conditionals?>ÿ
+#'a-01.conditionals/CondNestedIf
+clj?a-01.conditionals?>ÿ
+CondNestedIf
+True
+nil
+clj?a-01.conditionals?>ÿ
+CondNestedIf
+True
+nil
+clj?a-01.conditionals?>ÿ
+CondIf:
+equal
+CondIfDoo
+First do 1
+First do 2
+CondNestedIf
+True
+CondCase
+I have a dog
+nil
+clj?a-01.conditionals?>ÿ
+#'a-01.conditionals/CondIf
+clj?a-01.conditionals?>ÿ
+
+CondIf:
+equal
+
+CondIfDoo
+First do 1
+First do 2
+
+CondNestedIf
+True
+
+CondCase
+I have a dog
+nil
+clj?a-01.conditionals?>ÿ
+
+CondIf:
+equal
+
+CondIfDoo
+First do 1
+First do 2
+
+CondNestedIf
+True
+
+CondCase
+I have a dog
+several
+nil
+clj?a-01.conditionals?>ÿ
+
+CondIf:
+equal
+
+CondIfDoo
+First do 1
+First do 2
+
+CondNestedIf
+True
+
+CondCase
+I have a dog
+CondCond
+several
+nil
+clj?a-01.conditionals?>ÿ
+
+CondIf:
+equal
+
+CondIfDoo
+First do 1
+First do 2
+
+CondNestedIf
+True
+
+CondCase
+I have a dog
+
+CondCond
+several
+nil
+clj?a-01.conditionals?>ÿ
+
+Loop:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+nil
+clj?a-01.loops?>ÿ
+
+Loop:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+DoTimes
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+nil
+clj?a-01.loops?>ÿ
+
+Loop:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+#'a-01.loops/DoTimes
+clj?a-01.loops?>ÿ
+
+Loop:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+DoTimes:
+nil
+clj?a-01.loops?>ÿ
+
+Loop:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+DoTimes:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+nil
+clj?a-01.loops?>ÿ
+
+Loop:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+DoTimes:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+WhileDo:
+#object[clojure.lang.Atom 0x70da632b {:status :ready, :val 0}]
+#object[clojure.lang.Atom 0x70da632b {:status :ready, :val 1}]
+#object[clojure.lang.Atom 0x70da632b {:status :ready, :val 2}]
+#object[clojure.lang.Atom 0x70da632b {:status :ready, :val 3}]
+#object[clojure.lang.Atom 0x70da632b {:status :ready, :val 4}]
+#object[clojure.lang.Atom 0x70da632b {:status :ready, :val 5}]
+#object[clojure.lang.Atom 0x70da632b {:status :ready, :val 6}]
+#object[clojure.lang.Atom 0x70da632b {:status :ready, :val 7}]
+#object[clojure.lang.Atom 0x70da632b {:status :ready, :val 8}]
+#object[clojure.lang.Atom 0x70da632b {:status :ready, :val 9}]
+nil
+clj?a-01.loops?>ÿ
+
+Loop:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+DoTimes:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+WhileDo:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+nil
+clj?a-01.loops?>ÿ
+
+Loop:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+DoTimes:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+WhileDo:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+DoSeq:
+2
+3
+4
+5
+6
+nil
+clj?a-01.loops?>ÿ
+100
+nil
+clj?a-01.atoms?>ÿ
+100
+101
+110
+nil
+clj?a-01.atoms?>ÿ
+100
+101
+110
+120
+120
+nil
+clj?a-01.atoms?>ÿ
+(red green blue)
+nil
+clj?a-01.sequences?>ÿ
+(red green blue)
+(yellow red green blue)
+nil
+clj?a-01.sequences?>ÿ
+(red green blue)
+(yellow red green blue)
+((red green blue) b l a c k)
+nil
+clj?a-01.sequences?>ÿ
+#'a-01.sequences/Seq
+clj?a-01.sequences?>ÿ
+(red green blue)
+(yellow red green blue)
+((red green blue) b l a c k)
+(yellow red green blue)
+nil
+clj?a-01.sequences?>ÿ
+(red green blue)
+(yellow red green blue)
+((red green blue) b l a c k)
+(yellow red green blue)
+(red green blue)
+nil
+clj?a-01.sequences?>ÿ
+(red green blue)
+(yellow red green blue)
+((red green blue) b l a c k)
+(yellow red green blue)
+[red green blue yellow]
+nil
+clj?a-01.sequences?>ÿ
+(red green blue)
+(yellow red green blue)
+((red green blue) b l a c k)
+(yellow red green blue)
+[red green blue yellow]
+(red green blue black white)
+nil
+clj?a-01.sequences?>ÿ
+(red green blue)
+(yellow red green blue)
+((red green blue) b l a c k)
+(yellow red green blue)
+[red green blue yellow]
+(red green blue black white)
+(1 2 3 4 5)
+nil
+clj?a-01.sequences?>ÿ
+(red green blue)
+(yellow red green blue)
+((red green blue) b l a c k)
+(yellow red green blue)
+[red green blue yellow]
+(red green blue black white)
+(1 2 3 4 5)
+(blue green red)
+nil
+clj?a-01.sequences?>ÿ
+"red"
+clj?a-01.sequences?>ÿ
+#'a-01.sequences/Seq
+clj?a-01.sequences?>ÿ
+(blue green red)
+nil
+clj?a-01.sequences?>ÿ
+red
+nil
+clj?a-01.sequences?>ÿ
+(green blue)
+nil
+clj?a-01.sequences?>ÿ
+blue
+nil
+clj?a-01.sequences?>ÿ
+(1 2 3 4 5)
+nil
+clj?a-01.sequences?>ÿ
+#'a-01.StructMaps/Pets
+clj?a-01.StructMaps?>ÿ
+#object[clojure.lang.Var$Unbound 0x29f54c53 Unbound: #'a-01.StructMaps/myPet]
+nil
+clj?a-01.StructMaps?>ÿ
+#'a-01.StructMaps/pet
+clj?a-01.StructMaps?>ÿ
+{:PetType dog, :PetName Fido}
+nil
+clj?a-01.StructMaps?>ÿ
+#'a-01.StructMaps/pet
+clj?a-01.StructMaps?>ÿ
+#'a-01.StructMaps/myPet
+clj?a-01.StructMaps?>ÿ
+{:PetType dog, :PetName Fido}
+nil
+clj?a-01.StructMaps?>ÿ
+{:PetType dog, :PetName Fido}
+{:PetType cat, :PetName Fifi}
+nil
+clj?a-01.StructMaps?>ÿ
+{:PetType dog, :PetName Fido}
+{:PetType cat, :PetName Fifi}
+:PetType {:PetType dog, :PetName Fido}
+:PetName {:PetType cat, :PetName Fifi}
+nil
+clj?a-01.StructMaps?>ÿ
+dog
+nil
+clj?a-01.StructMaps?>ÿ
+Fifi
+nil
+clj?a-01.StructMaps?>ÿ
+"Fifi"
+clj?a-01.StructMaps?>ÿ
+{:PetType dog, :PetName Fido}
+{:PetType cat, :PetName Fifi}
+dog
+Fifi
+{:PetType dog, :PetName Max}
+{:PetType cat, :PetName Fifi, :PetAge 10}
+nil
+clj?a-01.StructMaps?>ÿ
+1 2 3
+nil
+clj?a-01.destructuring?>ÿ
+1 2 (3 4)
+nil
+clj?a-01.destructuring?>ÿ
+#'a-01.destructuring/myMap
+clj?a-01.destructuring?>ÿ
+John Smith
+nil
+clj?a-01.destructuring?>ÿ
+John Smith nil
+nil
+clj?a-01.destructuring?>ÿ
+; Execution error (ClassCastException) at a-01.exceptions/ExHandling (form-init16393553744957053368.clj:5).
+; class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+clj?a-01.exceptions?>ÿ
+Caught exception:  #error {
+ :cause class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+ :via
+ [{:type java.lang.ClassCastException
+   :message class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+   :at [clojure.lang.Numbers inc Numbers.java 139]}]
+ :trace
+ [[clojure.lang.Numbers inc Numbers.java 139]
+  [a_01.exceptions$ExHandling invokeStatic form-init16393553744957053368.clj 6]
+  [a_01.exceptions$ExHandling invoke form-init16393553744957053368.clj 3]
+  [a_01.exceptions$eval3384 invokeStatic form-init16393553744957053368.clj 10]
+  [a_01.exceptions$eval3384 invoke form-init16393553744957053368.clj 10]
+  [clojure.lang.Compiler eval Compiler.java 7194]
+  [clojure.lang.Compiler eval Compiler.java 7149]
+  [clojure.core$eval invokeStatic core.clj 3215]
+  [clojure.core$eval invoke core.clj 3211]
+  [nrepl.middleware.interruptible_eval$evaluate$fn__1269$fn__1270 invoke interruptible_eval.clj 87]
+  [clojure.lang.AFn applyToHelper AFn.java 152]
+  [clojure.lang.AFn applyTo AFn.java 144]
+  [clojure.core$apply invokeStatic core.clj 667]
+  [clojure.core$with_bindings_STAR_ invokeStatic core.clj 1990]
+  [clojure.core$with_bindings_STAR_ doInvoke core.clj 1990]
+  [clojure.lang.RestFn invoke RestFn.java 425]
+  [nrepl.middleware.interruptible_eval$evaluate$fn__1269 invoke interruptible_eval.clj 87]
+  [clojure.main$repl$read_eval_print__9206$fn__9209 invoke main.clj 437]
+  [clojure.main$repl$read_eval_print__9206 invoke main.clj 437]
+  [clojure.main$repl$fn__9215 invoke main.clj 458]
+  [clojure.main$repl invokeStatic main.clj 458]
+  [clojure.main$repl doInvoke main.clj 368]
+  [clojure.lang.RestFn invoke RestFn.java 1523]
+  [nrepl.middleware.interruptible_eval$evaluate invokeStatic interruptible_eval.clj 84]
+  [nrepl.middleware.interruptible_eval$evaluate invoke interruptible_eval.clj 56]
+  [nrepl.middleware.interruptible_eval$interruptible_eval$fn__1302$fn__1306 invoke interruptible_eval.clj 152]
+  [clojure.lang.AFn run AFn.java 22]
+  [nrepl.middleware.session$session_exec$main_loop__1372$fn__1376 invoke session.clj 218]
+  [nrepl.middleware.session$session_exec$main_loop__1372 invoke session.clj 217]
+  [clojure.lang.AFn run AFn.java 22]
+  [java.lang.Thread run Thread.java 1589]]}
+nil
+clj?a-01.exceptions?>ÿ
+Caught exception:  class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+nil
+clj?a-01.exceptions?>ÿ
+Caught exception:  class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+cleanup and move on
+nil
+clj?a-01.exceptions?>ÿ
+Hello
+nil
+; WARNING: reverse already refers to: #'clojure.core/reverse in namespace: a-01.namespaces, being replaced by: #'clojure.string/reverse
+; 
+; WARNING: replace already refers to: #'clojure.core/replace in namespace: a-01.namespaces, being replaced by: #'clojure.string/replace
+clj?a-01.namespaces?>ÿ
+; Syntax error compiling at (src/a_01/macros.clj:3:1).
+; Unable to resolve symbol: macroexpand-1 in this context
+clj?a-01.macros?>ÿ
+; Syntax error compiling at (src/a_01/macros.clj:3:1).
+; Unable to resolve symbol: macroexpand-1 in this context
+clj?a-01.macros?>ÿ
+(if true (do (println "hello")))
+clj?a-01.macros?>ÿ
+(if true (do (println "hello")))
+clj?a-01.macros?>ÿ
+(if true (do (println "hello")))
+clj?a-01.macros?>ÿ
+#object[clojure.lang.Atom 0x12de0622 {:status :ready, :val 5}]
+clj?a-01.watchers?>ÿ
+:xWatcher
+#object[clojure.lang.Atom 0x5d6ab3a4 {:status :ready, :val 10}]
+5
+10
+10
+clj?a-01.watchers?>ÿ
+:xWatcher
+#object[clojure.lang.Atom 0x24ca989b {:status :ready, :val 10}]
+5
+10
+15
+clj?a-01.watchers?>ÿ
+#'a-01.agents/Agents
+clj?a-01.agents?>ÿ
+100
+nil
+clj?a-01.agents?>ÿ
+100
+100
+nil
+clj?a-01.agents?>ÿ
+100
+100
+nil
+clj?a-01.agents?>ÿ
+100
+100
+soeme time must pass
+100
+nil
+clj?a-01.agents?>ÿ
+100
+100
+soeme time must pass
+100
+nil
+clj?a-01.agents?>ÿ
+100
+100
+soeme time must pass
+101
+nil
+clj?a-01.agents?>ÿ
+100
+100
+soeme time must pass
+100
+nil
+clj?a-01.agents?>ÿ
+#'a-01.agents/Agents
+clj?a-01.agents?>ÿ
+100
+100
+some time must pass
+101
+102
+nil
+#'a-01.agents/Agents
+clj?a-01.agents?>ÿ
+100
+100
+some time must pass
+101
+102
+nil
+#'a-01.agents/Agents
+clj?a-01.agents?>ÿ
+nil
+nil
+clj?a-01.agents?>ÿ
+#'a-01.references/Refs
+clj?a-01.references?>ÿ
+; Execution error (ClassCastException) at a-01.references/Refs (form-init16393553744957053368.clj:6).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj?a-01.references?>ÿ
